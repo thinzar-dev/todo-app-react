@@ -1,2 +1,5 @@
-[build]
-command = "CI= npm run build"
+build:
+command: CI= npm run build
+commandOrigin: config
+publish: /opt/build/repo/build
+publishOrigin: ui
